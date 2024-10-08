@@ -254,3 +254,59 @@ footer {
 footer p {
   font-family: "Times New Roman", Times, serif;
 }
+
+@media (max-width:768px) {
+  .logo {
+    width: 100vw;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .logo h1 {
+    font-size: 3rem;
+
+  }
+  
+  .logo p {
+    font-size: 1.9rem;
+    margin: 2.5rem 0;
+  }
+
+  main {
+    width: 100vw;
+    margin: 0;
+  }
+  
+  article {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  h2 {
+    margin: 0.5rem 0;
+  }
+  
+  p:not(.logo p) {
+    font-size: 1.9rem;
+    width: 100vw;
+    margin: 0;
+    padding: 1rem;
+  }
+
+ul {
+  margin-left: 10%;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+header a {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+a {
+  font-size: 1.9rem;
+}
+}
